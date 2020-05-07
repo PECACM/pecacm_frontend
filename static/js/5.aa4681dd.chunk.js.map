@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/pages/Events.js"],"names":["Events"],"mappings":"mHAAA,mEAEe,SAASA,IACpB,OACI","file":"static/js/5.aa4681dd.chunk.js","sourcesContent":["import React from 'react'\n\nexport default function Events() {\n    return (\n        <div>\n            \n        </div>\n    )\n}\n"],"sourceRoot":""}

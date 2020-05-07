@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/pages/Achievements.js"],"names":["Achievements"],"mappings":"mHAAA,mEAEe,SAASA,IACpB,OACI","file":"static/js/4.9573919b.chunk.js","sourcesContent":["import React from 'react'\n\nexport default function Achievements() {\n    return (\n        <div>\n            \n        </div>\n    )\n}\n"],"sourceRoot":""}
