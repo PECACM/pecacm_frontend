@@ -4,10 +4,9 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import { Paper, Button, Typography, Avatar } from "@material-ui/core";
+// import CardMedia from '@material-ui/core/CardMedia';
+import { Button, Typography, Avatar } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid/Grid";
-import darkVariables from "../styles/DarkStyles";
 
 const useStyles = makeStyles((theme => ({
     root: {

@@ -3,7 +3,6 @@ import {Helmet} from "react-helmet";
 import Footer from "../Footer";
 import CardRow from "../CardRow";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 
 export default function Home() {
     return (
