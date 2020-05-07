@@ -22,7 +22,7 @@ const schemaMarkup = {
   "@context": "http://schema.org/",
   "@type": "NGO",
   name: "PEC ACM Society",
-  alternateName: "PEC ACM Society",
+  alternateName: "Computer Science Society",
   url: "https://www.pec.ac.in/",
   image: "https://www.pec.ac.in/thumbnail.png",
 };
