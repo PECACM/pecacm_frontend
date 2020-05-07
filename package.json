@@ -17,7 +17,8 @@
     "react-i18next": "^11.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-use": "^14.2.0"
+    "react-use": "^14.2.0",
+    "@material-ui/core": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
