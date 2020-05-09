@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "material-ui": "^0.20.2",
+    "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "animejs": "^3.2.0",
     "i18next": "^19.4.4",
+    "lodash": "^4.17.15",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -17,8 +20,7 @@
     "react-i18next": "^11.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-use": "^14.2.0",
-    "@material-ui/core": "latest"
+    "react-use": "^14.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "material-ui": "^0.20.2",
     "sass": "^1.26.5",
     "scss": "^0.2.4"
   }

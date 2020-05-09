@@ -8,11 +8,10 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import cardData from './cardData';
 
 const useStyles = makeStyles((theme => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 300,
     backgroundColor: 'transparent',
     color: 'textPrimary',
   },
@@ -25,7 +24,7 @@ const useStyles = makeStyles((theme => ({
 
 function Showcase(props) {
   const classes = useStyles();
-
+  const {cardData} = props;
   return (
       <div className="cards-container">
         <section className="cards">

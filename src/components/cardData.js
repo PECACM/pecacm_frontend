@@ -13,7 +13,7 @@ const cards = [
     image: AWS,
     altText: 'Amazon Web Services',
   }, {
-    title: 'UCS',
+    title: 'Andhadhun',
     content: 'Ultimate Coding Showdown',
     image: UCS,
     altText: 'Ultimate Coding Showdown',

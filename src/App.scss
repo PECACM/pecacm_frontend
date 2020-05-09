@@ -1437,11 +1437,10 @@ h6 {
       h4 {
         cursor: pointer;
         margin-left: 0.25rem;
-        word-wrap: wrap;
+        word-wrap: break-word;
 
         &:hover {
           text-decoration: underline;
-          text-decoration-thickness: 2px;
         }
       }
     }
@@ -3731,159 +3730,6 @@ footer {
       }
     }
 
-    &.is-in {
-      background: url("/flags/india.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-uk {
-      background: url("/flags/uk.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-us {
-      background: url("/flags/usa.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-th {
-      background: url("/flags/thailand.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-ph {
-      background: url("/flags/philippines.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-it {
-      background: url("/flags/italy.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-ca {
-      background: url("/flags/canada.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-id {
-      background: url("/flags/indonesia.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
-    &.is-mm {
-      background: url("/flags/myanmar.png");
-      background-size: cover !important;
-
-      h3 {
-        color: transparent;
-      }
-
-      &:hover {
-        background: $gray-light;
-
-        h3 {
-          color: $gray-mid;
-        }
-      }
-    }
-
     &.age1-9 {
       background: #006400;
     }
@@ -4315,51 +4161,6 @@ footer {
     &.is-imported {
       background: $purple;
     }
-
-    &.is-in {
-      background: url("/flags/india.png");
-      background-size: cover !important;
-    }
-
-    &.is-uk {
-      background: url("/flags/uk.png");
-      background-size: cover !important;
-    }
-
-    &.is-us {
-      background: url("/flags/usa.png");
-      background-size: cover !important;
-    }
-
-    &.is-th {
-      background: url("/flags/thailand.png");
-      background-size: cover !important;
-    }
-
-    &.is-ph {
-      background: url("/flags/philippines.png");
-      background-size: cover !important;
-    }
-
-    &.is-it {
-      background: url("/flags/italy.png");
-      background-size: cover !important;
-    }
-
-    &.is-ca {
-      background: url("/flags/canada.png");
-      background-size: cover !important;
-    }
-
-    &.is-id {
-      background: url("/flags/indonesia.png");
-      background-size: cover !important;
-    }
-
-    &.is-mm {
-      background: url("/flags/myanmar.png");
-      background-size: cover !important;
-    }
   }
 }
 
@@ -4630,7 +4431,7 @@ footer {
 }
 
 .cards-container {
-  margin-left: 5rem;
+  margin-left: 3rem;
   padding: 2rem;
 
   .cards {
@@ -4885,7 +4686,7 @@ footer {
   a {
     &.button {
       display: flex;
-      flex: row;
+      flex: 1;
       justify-content: center;
       width: 10rem;
 
