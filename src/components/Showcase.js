@@ -28,8 +28,8 @@ function Showcase(props) {
   return (
       <div className="cards-container">
         <section className="cards">
-          {cardData.map(card => (
-                  <div key={card.title} className="card fadeInUp"
+          {cardData.map((card, key) => (
+                  <div key={key} className="card fadeInUp"
                        style={{animationDelay: '0.7s'}}>
                     <Grid
                         container
