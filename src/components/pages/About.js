@@ -22,9 +22,6 @@ function RenderRoute(props) {
 }
 
 export default function About() {
-  const style = {
-    justifyContent: "center",
-  };
 
   return (
     <div>
