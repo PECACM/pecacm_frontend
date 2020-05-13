@@ -46,7 +46,7 @@ function App() {
     {
       pageLink: '/achievements',
       view: Achievements,
-      displayName: t('Achievements & Awards'),
+      displayName: t('Achievements'),
       animationDelayForNavbar: 0.3,
       showInNavbar: true,
     },
